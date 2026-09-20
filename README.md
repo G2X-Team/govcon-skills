@@ -53,7 +53,7 @@ The agent checks the connected tools before it starts, reuses completed analysis
 | [Opportunities](skills/govcon-mcp/references/opportunities.md) | Build a shortlist of opportunities, forecasts and likely recompetes with the evidence behind each one. |
 | [Markets](skills/govcon-mcp/references/markets.md) | Size a market, break down awards, research a vehicle or look up federal supply items. |
 | [Companies and people](skills/govcon-mcp/references/companies.md) | Resolve the right company, then research incumbents, partners and the people involved. |
-| [Events](skills/govcon-mcp/references/events.md) | Find industry days and conferences, prepare for the meeting and plan the follow-up. |
+| [Events](skills/govcon-mcp/references/events.md) | Prepare for industry days and conferences; use event search and calendar actions when your connection offers them. |
 | [Documents](skills/govcon-mcp/references/documents.md) | Read complete solicitation documents and compare what changed between amendments. |
 | [Capture](skills/govcon-mcp/references/capture.md) | Extract requirements, assess your company's fit and review a compliance matrix. |
 | [Work products](skills/govcon-mcp/references/work-products.md) | Save briefs, matrices, proposal sections and responses in G2X where the connection supports it. |
