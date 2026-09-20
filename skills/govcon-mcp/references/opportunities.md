@@ -1,13 +1,13 @@
 # Opportunity discovery
 
-Use for a pursuit shortlist, opportunity search, forecast scan or recompete watch.
+Use this playbook for a pursuit shortlist, an opportunity search, a forecast scan or a recompete watch.
 
-Start from the user's company and stated market. Obtain relevant NAICS/PSC, set-asides, agencies, geography, contract size and deadlines from supplied context or accessible profile evidence. Do not invent certifications or past performance. Ask for a missing discriminator only if it changes the search materially.
+Start with the user's company and the market they named. Pull the relevant NAICS and PSC codes, set-asides, agencies, geography, contract size and deadlines from the context they supplied or from profile evidence you can access. Do not invent certifications or past performance. Ask for a missing discriminator only when it would change the search materially.
 
-Prefer `g2x_query` for structured filtering, counts and a bounded complete list. Inspect `help` and the relevant source help rather than assuming filters. Use `g2x_search_supplementary` when searching text in attachments or across supported opportunity sources. Use the narrower opportunity search for a quick topical shortlist. Forecasts, expiring awards and recompete candidates require their distinct tools and are not open solicitations.
+Prefer `g2x_query` for structured filtering, counts and a bounded complete list. Read its `help` and the relevant source help instead of assuming which filters exist. Use `g2x_search_supplementary` to search text inside attachments or across the supported opportunity sources. Use the narrower opportunity search for a quick topical shortlist. Forecasts, expiring awards and recompete candidates each have their own tools, and none of them is an open solicitation; do not present them as one.
 
-Carry filters and returned cursors consistently. Deduplicate by canonical record and version; do not merge different notices simply because titles match. Stop at the requested scope or stated budget. Preserve the difference between shown records, total matches and a truncated result.
+Carry filters and returned cursors consistently through the search. Deduplicate by canonical record and version, and do not merge different notices just because their titles match. Stop at the scope or budget the user set. Keep the difference between records shown, total matches and a truncated result visible in what you report.
 
-For each recommended pursuit, show agency, notice type, response deadline with timezone when provided, fit rationale, the evidence behind it and a G2X link. Separate mandatory eligibility from softer fit signals. A likely follow-on is not a confirmed forthcoming solicitation; an award ending soon does not prove a recompete date.
+For each recommended pursuit, give the agency, notice type, response deadline (with time zone when provided), the fit rationale, the evidence behind it and a G2X link. Separate mandatory eligibility from softer fit signals. A likely follow-on is not a confirmed forthcoming solicitation, and an award that ends soon does not establish a recompete date.
 
-For “find work and save the best matches,” research first, then use the pursuit-management playbook on the clearly selected records. Do not change the user's saved-search notification preferences as a side effect of research.
+When the user asks you to "find work and save the best matches," research first, then follow the [pursuit-management playbook](pursuits.md) for the matches that meet their stated criteria. Ask only if the selection criteria or destination is ambiguous. Do not change the user's saved-search notification preferences as a side effect of research.
