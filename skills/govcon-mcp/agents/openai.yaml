@@ -1,0 +1,11 @@
+interface:
+  display_name: "GovCon MCP by G2X"
+  short_description: "Research GovCon and act in your G2X account"
+  default_prompt: "Use $govcon-mcp to research this pursuit and show the evidence behind your recommendation."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "govcon-mcp"
+      description: "G2X government contracting intelligence and account workflows"
+      transport: "streamable_http"
+      url: "https://mcp.g2x.com/mcp"
