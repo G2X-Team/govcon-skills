@@ -6,7 +6,7 @@ For a UEI, use an exact supported identifier lookup; a malformed identifier must
 
 For an incumbent or teaming brief, use contract history, socioeconomic status, vehicle usage, public graph links and the evidence tools. A corporate family is not one award recipient. A shared NAICS code, a similar name or a graph neighbor does not prove a teaming relationship. State what supports a suggested partner and what remains unknown.
 
-Distinguish discoverable G2X members (`g2x_people_directory`) from professional profiles (`g2x_people_profiles`). Directory visibility follows account permissions. Resolve the person against employer, role and available identifiers, and do not merge namesakes. Do not infer private contact details.
+The people directory is not available yet. Use the people and contact details named in returned source documents. Cite the source. Do not infer private contact details.
 
 Company signals and web profiles can supply news and social evidence, and they can consume paid allowances. Use them when they are relevant to the question and within authorized usage. Cite the original returned evidence and its publication date where available. Distinguish company statements from independent reporting, current employment from historical employment, and inference from fact.
 

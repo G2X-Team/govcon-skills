@@ -3,7 +3,7 @@ name: govcon-mcp
 description: Research government contracting opportunities, markets, companies, people and events with G2X context; read complete solicitations and analyze them in the user's own agent; save supported work products in G2X; and make requested changes to G2X pursuits and CRM. Use with a connected G2X account, including when moving a workflow from another product or a spreadsheet into G2X.
 metadata:
   author: G2X
-  version: "1.2.1"
+  version: "1.3.1"
 ---
 
 # GovCon MCP
@@ -11,6 +11,16 @@ metadata:
 G2X is a federal growth intelligence platform, trusted by leading government contractors and built and run by career government contracting growth and execution professionals. It connects analyst-curated intelligence with opportunity and award research, company and agency records, GovCon CRM, watchlists and pipelines, Bid Hub and Lumen. This skill teaches an agent to use that context the way an experienced capture or BD lead would: find the right record, read the whole document, keep the citations, keep what is known apart from what is assumed, and leave the work where the team can find it.
 
 Help the user research a pursuit, produce the document they need, or make a requested change in G2X. Use the connected hosted MCP at `https://mcp.g2x.com/mcp`. Never substitute a direct data-service connection.
+
+## Calibrate the session first
+
+If the connection offers `g2x_calibrate_session`, call it once at the start of a session, before you search. It returns the company profile the signed-in user has claimed in the GovCon Directory: the company's name, UEI, CAGE and location, primary NAICS, business types and SBA certifications, the agencies that award it the most, and its G2X profile link. Search results fit the user's company only after this step.
+
+- **With a profile,** confirm it in one sentence before searching: "I'll look for work that fits {company}: NAICS {codes}, agencies {agencies}, {certifications}. Anything to change for today?" Use those values as the session's defaults.
+- **A different NAICS, agency, set-aside or place** that the user names applies to that one query. Say which profile values you set aside, then return to the profile.
+- **Several claimed profiles:** ask which company this session is for, then calibrate with its `uei`.
+- **No profile:** ask for the user's UEI or company name, main NAICS codes, target agencies, set-asides or certifications, places of performance and the kinds of work they want. Share the link calibration returns for claiming or setting up the profile, so the next session calibrates by itself.
+- Do not assume a company is the user's unless calibration returned it or the user named it as theirs, and do not search with another company's profile unless the user asks about that company by name.
 
 ## Choose the right depth
 
