@@ -7,7 +7,7 @@ Start from the calibrated profile (see "Calibrate the session first" in the skil
 Turn the profile into queries:
 
 - Open opportunities: `g2x_search_opportunities` with `naics_codes` from the profile, plus words from the user's goal.
-- Other datasets: `g2x_search_records` with `filters` such as `naics`, `agency_code` or `set_aside`.
+- Other datasets: `g2x_search_records` with `filters` from the keys that dataset takes. The tool's description lists the opportunity keys, such as `naics`, `agency_code` and `set_aside`; other datasets take their own, and an unknown key is refused with the list.
 - When the user wants notices whose documents they can read, add `with_readable_documents: true` if the search offers it.
 
 A value the user names for one search (a different NAICS, agency, set-aside or place) replaces the profile's value for that query only. Say which profile values you set aside, then go back to the profile.
